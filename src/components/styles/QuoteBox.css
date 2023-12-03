@@ -1,0 +1,61 @@
+
+.quoteBox__btn {
+  padding: 5px 20px;
+  font-family: "Prompt", sans-serif;
+  font-size: 1rem;
+  position: static;
+  top: 2rem;
+  color: rgb(173, 49, 8);
+  border-radius: 10px;
+  border-color: rgb(173, 49, 8);
+  background-color: coral;
+  margin-bottom: 20px;
+  
+}
+
+.quoteBox__phrase {
+    font-family: 'Pacifico', cursive; 
+  padding: 0 10px;
+  font-size: 25px;
+  margin: 0 50px;
+  border:2px solid black;
+  border-radius: 5px;
+  background: rgba(255, 127, 80, 0.595);
+  border-color: rgb(173, 49, 8);
+  color: rgb(0, 0, 0);
+}
+
+
+
+@media screen and (min-width: 678px){
+  .quoteBox__btn {
+    display: block;
+    margin: 0 auto;
+  }
+  .quoteBox__btn {
+    padding: 5px 20px;
+    font-family: "Prompt", sans-serif;
+    font-size: 1.5rem;
+    position: static;
+    
+    color: rgb(173, 49, 8);
+    border-radius: 10px;
+    border-color: rgb(173, 49, 8);
+    background-color: coral;
+    margin-bottom: 20px;
+  }
+  
+  .quoteBox__phrase {
+      font-family: 'Pacifico', cursive;
+    background-color: white;
+    background: rgba(255, 127, 80, 0.595);
+  border-color: rgb(173, 49, 8);
+    padding: 0 10px;
+    font-size: 2rem;
+    margin: 0 150px;
+    border:2px solid black;
+    border-radius: 5px;
+  }
+}
+
+
